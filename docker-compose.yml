@@ -1,0 +1,24 @@
+version: "3.8"
+services:
+  reth:
+    build:
+      context: reth
+      args:
+        UPSTREAM_VERSION: v0.1.7
+        STAKER_SCRIPTS_VERSION: v0.1.2
+        P2P_PORT: 30517
+        DATA_DIR: /data/reth
+        NETWORK: gnosis
+    volumes:
+      - reth:/data/reth
+    environment:
+      RPC_MAX_BLOCKS_PER_FILTER: "0"
+      EXTRA_OPTS: null
+      ARCHIVE_NODE: "false"
+    restart: unless-stopped
+    ports:
+      - 30517:30517/tcp
+      - 30517:30517/udp
+    image: reth.gnosis-reth.dnp.dappnode.eth:0.1.0
+volumes:
+  reth: {}
