@@ -16,6 +16,7 @@
   ],
   "description": "reth-gnosis.dnp.dappnode.eth description",
   "type": "service",
+  "chain": "ethereum",
   "author": "DAppNode Association <admin@dappnode.io> (https://github.com/dappnode)",
   "architectures": ["linux/amd64"],
   "categories": ["Blockchain"],
