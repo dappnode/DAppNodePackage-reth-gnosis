@@ -1,6 +1,7 @@
 {
   "name": "gnosis-reth.dnp.dappnode.eth",
   "version": "0.1.0",
+  "minimumDappnodeVersion": "0.3.11",
   "upstream": [
     {
       "repo": "gnosischain/reth_gnosis",
