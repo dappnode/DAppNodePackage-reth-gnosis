@@ -27,5 +27,10 @@
   "bugs": {
     "url": "https://github.com/dappnode/DAppNodePackage-reth-gnosis/issues"
   },
-  "license": "GPL-3.0"
+  "license": "GPL-3.0",
+  "optionalDependencies": {
+    "lighthouse-gnosis.dnp.dappnode.eth": ">=0.1.15",
+    "teku-gnosis.dnp.dappnode.eth": ">=0.1.15",
+    "lodestar-gnosis.dnp.dappnode.eth": ">=0.1.32"
+  }
 }
