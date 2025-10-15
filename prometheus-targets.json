@@ -1,0 +1,11 @@
+[
+    {
+        "labels": {
+            "package": "gnosis-reth.dnp.dappnode.eth",
+            "service": "reth"
+        },
+        "targets": [
+            "gnosis-reth.dappnode:6060"
+        ]
+    }
+]
