@@ -1,13 +1,13 @@
 {
   "name": "gnosis-reth.dnp.dappnode.eth",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "requirements": {
     "minimumDappnodeVersion": "0.3.11"
   },
   "upstream": [
     {
       "repo": "gnosischain/reth_gnosis",
-      "version": "v0.1.7",
+      "version": "v0.1.8",
       "arg": "UPSTREAM_VERSION"
     },
     {
