@@ -1,13 +1,13 @@
 {
   "name": "gnosis-reth.dnp.dappnode.eth",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "requirements": {
     "minimumDappnodeVersion": "0.3.11"
   },
   "upstream": [
     {
       "repo": "gnosischain/reth_gnosis",
-      "version": "v1.0.0",
+      "version": "v1.0.1",
       "arg": "UPSTREAM_VERSION"
     },
     {
@@ -37,5 +37,6 @@
     "lodestar-gnosis.dnp.dappnode.eth": ">=0.1.32"
   },
   "warnings": {
-    "onMinorUpdate": "Upgrading to Gnosis Reth 0.2.0 from *ANY* previous version will need a database re-sync. The existing db will not work – after the update, delete the reth volumes to force a full resync." }
+    "onMinorUpdate": "Upgrading to Gnosis Reth 0.2.0 from *ANY* previous version will need a database re-sync. The existing db will not work – after the update, delete the reth volumes to force a full resync."
+  }
 }
