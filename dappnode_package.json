@@ -1,34 +1,43 @@
 {
-  "name": "gnosis-reth.dnp.dappnode.eth",
-  "version": "0.2.1",
-  "requirements": {
-    "minimumDappnodeVersion": "0.3.11"
-  },
-  "upstream": [
-    {
-      "repo": "gnosischain/reth_gnosis",
-      "version": "v1.0.3",
-      "arg": "UPSTREAM_VERSION"
-    },
-    {
-      "repo": "dappnode/staker-package-scripts",
-      "version": "v0.1.2",
-      "arg": "STAKER_SCRIPTS_VERSION"
-    }
+  "architectures": [
+    "linux/amd64"
   ],
-  "description": "reth-gnosis.dnp.dappnode.eth description",
-  "type": "service",
-  "chain": "ethereum",
   "author": "DAppNode Association <admin@dappnode.io> (https://github.com/dappnode)",
-  "architectures": ["linux/amd64"],
-  "categories": ["Blockchain"],
-  "keywords": ["reth", "ethereum", "client", "execution"],
+  "bugs": {
+    "url": "https://github.com/dappnode/DAppNodePackage-reth-gnosis/issues"
+  },
+  "categories": [
+    "Blockchain"
+  ],
+  "chain": "ethereum",
+  "description": "reth-gnosis.dnp.dappnode.eth description",
+  "keywords": [
+    "reth",
+    "ethereum",
+    "client",
+    "execution"
+  ],
+  "license": "GPL-3.0",
+  "name": "gnosis-reth.dnp.dappnode.eth",
   "repository": {
     "type": "git",
     "url": "https://github.com/dappnode/DAppNodePackage-reth-gnosis.git"
   },
-  "bugs": {
-    "url": "https://github.com/dappnode/DAppNodePackage-reth-gnosis/issues"
+  "requirements": {
+    "minimumDappnodeVersion": "0.3.11"
   },
-  "license": "GPL-3.0"
+  "type": "service",
+  "upstream": [
+    {
+      "arg": "UPSTREAM_VERSION",
+      "repo": "gnosischain/reth_gnosis",
+      "version": "v2.0.0"
+    },
+    {
+      "arg": "STAKER_SCRIPTS_VERSION",
+      "repo": "dappnode/staker-package-scripts",
+      "version": "v0.1.2"
+    }
+  ],
+  "version": "0.2.2"
 }
